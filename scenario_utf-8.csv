@@ -1,7 +1,7 @@
-﻿,<h1>gb!</h1>,gb! は、CSVを用いたシンプルなシステムです。CSVファイルを読み取り、指定された行のデータをHTMLで表示します。<br>PHP7で書かれ、デザインにBootstrap4を利用しています。,CSVファイルの１列目をIDとして扱います。ある行の内容を表示するには、リンク先を”?id=目的行のID”のように指定します。<br><a href='?id=1'>例：このリンクは「?id=1」と書きました。</a><br><a href='?id=thisisidtext'>こちらは「?id=thisisidtext」と書きました。</a><br>IDには数字以外も指定できますが、重複しないように注意が必要です。,HTMLタグをタグとしてでなく、テキストとして扱いたい場合にはエスケープ文字を使います。<br>例：&lt;div&gt;ここは有効なタグになりません&lt;/div&gt;,CSVファイルはExcelで編集可能です。保存する際の文字コードはUTF-8を用いて下さい。
-1,AAA,aaa,,,
-2,BBB,bbb,,,
-3,CCC,ccc,,,
-4,DDD,ddd,,,
-5,EEE,eee,,,
-thisisidtext,Hello!,,,,
+﻿,<h1>gb!</h1>,gb! は、CSVを用いたシンプルなシステムです。CSVファイルを読み取り、指定された行のデータをHTMLで表示します。<br>PHP7で書かれ、デザインにBootstrap4を利用しています。,CSVファイルの１列目をIDとして扱います。ある行の内容を表示するには、リンク先を「?id=目的行のID」のように指定します。<br><a href='?id=1'>例：このリンクは「?id=1」と書きました。</a><br><a href='?id=thisisidtext'>こちらは「?id=thisisidtext」と書きました。</a><br>IDには数字以外も指定できますが、重複しないように注意が必要です。,HTMLタグをタグとしてでなく、テキストとして扱いたい場合にはエスケープ文字を使います。<br>例：&lt;div&gt;ここは有効なタグになりません&lt;/div&gt;,CSVファイルはExcelで編集可能です。保存する際の文字コードはUTF-8を用いて下さい。,<div class='mt-3'>GitHub: <a href='https://github.com/kzbb/gb'>https://github.com/kzbb/gb</a></div>
+1,AAA,aaa,,,,
+2,BBB,bbb,,,,
+3,CCC,ccc,,,,
+4,DDD,ddd,,,,
+5,EEE,eee,,,,
+thisisidtext,Hello!,,,,,
